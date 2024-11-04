@@ -1,5 +1,6 @@
 # p1.py
 import sys
+import matplotlib.pyplot as plt
 from read import read
 from plot import plot1D, plot2D
 
