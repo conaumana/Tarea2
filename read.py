@@ -15,7 +15,7 @@ def read(filename):
             if len(row) > 2:
                 posicion2.append(float(row[2]))
 
-    if values2:
+    if posicion2:
         return tiempo, posicion1, posicion2
     else:
         return tiempo, posicion1
